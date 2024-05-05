@@ -20,3 +20,6 @@ ro.vendor.oplus.radio.sar_regionmark    u:object_r:vendor_radio_prop:s0
 # RIL
 vendor.gsm.phoneserial         u:object_r:vendor_nw_exported_system_prop:s0
 vendor.gsm.serial              u:object_r:vendor_nw_exported_system_prop:s0
+
+# Wlan
+wifi.interface		       u:object_r:wifi_hal_prop:s0
