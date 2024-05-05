@@ -144,8 +144,8 @@ BOARD_RAMDISK_USE_LZ4 := true
 TARGET_KERNEL_ADDITIONAL_FLAGS := DTC_EXT=$(shell pwd)/prebuilts/misc/linux-x86/dtc/dtc BRAND_SHOW_FLAG=oneplus
 TARGET_COMPILE_WITH_MSM_KERNEL := true
 TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_SOURCE := kernel/oneplus/sm8250
-TARGET_KERNEL_CONFIG := vendor/kona-perf_defconfig ksu.config
+TARGET_KERNEL_VERSION := 4.19
+TARGET_KERNEL_CONFIG := vendor/kona-perf_defconfig
 
 # Metadata
 BOARD_USES_METADATA_PARTITION := true
