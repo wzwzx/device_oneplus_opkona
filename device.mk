@@ -208,6 +208,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/display/display_id_4630946950956839809.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946950956839809.xml \
     $(LOCAL_PATH)/display/display_id_4630947194340276609.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630947194340276609.xml
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.sf.lcd_density=411 \
+    vendor.display.lcd_density=411 
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.3.vendor \
