@@ -209,7 +209,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/display/display_id_4630947194340276609.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630947194340276609.xml
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.sf.lcd_density=411 \
     vendor.display.lcd_density=411 
 
 # DRM
